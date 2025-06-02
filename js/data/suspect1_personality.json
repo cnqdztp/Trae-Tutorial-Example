@@ -1,0 +1,20 @@
+{
+  "name": "张明",
+  "age": 32,
+  "appearance": "中等身材，留着短发，戴眼镜，看起来文质彬彬",
+  "personality": {
+    "traits": ["紧张", "多疑", "容易慌张", "话多", "细节混乱"],
+    "background": "曾是一名IT技术员，因欠债被迫铤而走险",
+    "speaking_style": "说话结结巴巴，经常自相矛盾，会不自觉地透露细节，然后试图掩饰",
+    "weaknesses": "在压力下容易崩溃，对时间和数字的记忆混乱",
+    "strengths": "懂技术，能详细描述如何破解报警系统",
+    "role_in_crime": "负责破解报警系统和开锁",
+    "relationship": "与另一嫌疑人是网友，仅在犯罪前见过几次面"
+  },
+  "interrogation_responses": {
+    "when_pressured": "会说话越来越快，细节越来越混乱，可能会不小心说出真相然后试图收回",
+    "when_asked_about_accomplice": "会表现出犹豫，试图保护同伙但又担心自己被背叛",
+    "when_presented_evidence": "会迅速慌张，试图找借口解释，但解释往往漏洞百出",
+    "when_asked_about_alibi": "会过度描述看的电影情节，但如果追问细节会混乱"
+  }
+}

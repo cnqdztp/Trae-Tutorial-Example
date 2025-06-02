@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interrogate - 警察审讯游戏</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+        #game-container {
+            position: relative;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div id="loading">加载中...</div>
+    </div>
+
+    <!-- 引入Phaser库 -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+    
+    <!-- 引入游戏脚本 -->
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/scenes/BootScene.js"></script>
+    <script src="js/scenes/MainMenuScene.js"></script>
+    <script src="js/scenes/InterrogationScene.js"></script>
+    <script src="js/scenes/ComparisonScene.js"></script>
+    <script src="js/scenes/ResultScene.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

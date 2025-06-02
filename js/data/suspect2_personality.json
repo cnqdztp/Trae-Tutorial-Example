@@ -1,0 +1,20 @@
+{
+  "name": "李强",
+  "age": 38,
+  "appearance": "高大魁梧，留着精心修剪的胡须，举止沉稳",
+  "personality": {
+    "traits": ["冷静", "精明", "自信", "话少", "善于控制情绪"],
+    "background": "前保安公司员工，熟悉各类安保系统，有轻微前科",
+    "speaking_style": "简短有力，回答经过思考，很少自相矛盾，但会有意回避某些话题",
+    "weaknesses": "过于自信，有时会低估对方，对细节的记忆可能不如同伙",
+    "strengths": "心理素质强，不易被言语激怒，善于观察审讯者的反应",
+    "role_in_crime": "负责踩点、计划和转移赃物",
+    "relationship": "通过地下论坛认识另一嫌疑人，是主要策划者"
+  },
+  "interrogation_responses": {
+    "when_pressured": "会保持冷静，转移话题或反问审讯者，很少显露紧张情绪",
+    "when_asked_about_accomplice": "会表现得不太了解对方，暗示只是临时合作",
+    "when_presented_evidence": "会质疑证据的可靠性，或提供合理的替代解释",
+    "when_asked_about_alibi": "简洁描述在家看电影，如果追问会说自己睡着了记不清细节"
+  }
+}
